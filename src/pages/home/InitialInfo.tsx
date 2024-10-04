@@ -2,6 +2,7 @@ import Spongebob from "../../assets/images/Spongebob.gif";
 import Homer from "../../assets/images/Homer.gif";
 import Image from "../../components/Image";
 import Profile from "../../assets/images/Profile.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../../components/App.css";
 import IconLink from "./IconLink";
 

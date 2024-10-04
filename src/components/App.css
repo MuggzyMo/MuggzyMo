@@ -1,0 +1,47 @@
+.custom-thumbnail {
+  background-color: #212529 !important;
+  border-color: #212529 !important;
+}
+
+.custom-border {
+  border: 3px solid #007bff;
+  border-color: #212529 !important;
+  background-color: #212529 !important;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  width: 20% !important;
+  height: 20% !important;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a:link {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: underline;
+}
