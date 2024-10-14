@@ -7,16 +7,30 @@ function Education() {
   4;
 
   return (
-    <div className="p-2" onClick={() => setShowEdu(!showEdu)}>
+    <div className="p-2">
       {showEdu ? (
         <>
           <h1 className="text-center">{educationHeader}</h1>
-          <h1 className="text-center">{arrowDown}</h1>
+          <div className="arrow-center">
+            <h1
+              className="clickable-arrow"
+              onClick={() => setShowEdu(!showEdu)}
+            >
+              {arrowDown}
+            </h1>
+          </div>
         </>
       ) : (
         <>
           <List heading={educationHeader} items={education}></List>
-          <h1 className="text-center">{arrowUp}</h1>
+          <div className="arrow-center">
+            <h1
+              className="clickable-arrow"
+              onClick={() => setShowEdu(!showEdu)}
+            >
+              {arrowUp}
+            </h1>
+          </div>
         </>
       )}
     </div>

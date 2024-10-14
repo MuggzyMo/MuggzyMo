@@ -6,16 +6,30 @@ function Skill() {
   const [showSkill, setShowSkill] = useState(true);
 
   return (
-    <div className="p-2" onClick={() => setShowSkill(!showSkill)}>
+    <div className="p-2">
       {showSkill ? (
         <>
           <h1 className="text-center">{skillHeader}</h1>
-          <h1 className="text-center">{arrowDown}</h1>
+          <div className="arrow-center">
+            <h1
+              className="clickable-arrow"
+              onClick={() => setShowSkill(!showSkill)}
+            >
+              {arrowDown}
+            </h1>
+          </div>
         </>
       ) : (
         <>
           <List heading={skillHeader} items={skill}></List>
-          <h1 className="text-center">{arrowUp}</h1>
+          <div className="arrow-center">
+            <h1
+              className="clickable-arrow"
+              onClick={() => setShowSkill(!showSkill)}
+            >
+              {arrowUp}
+            </h1>
+          </div>
         </>
       )}
     </div>

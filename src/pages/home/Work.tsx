@@ -6,11 +6,18 @@ function Work() {
   const [showWork, setShowWork] = useState(true);
 
   return (
-    <div className="p-2" onClick={() => setShowWork(!showWork)}>
+    <div className="p-2">
       {showWork ? (
         <>
           <h1 className="text-center">{workHeader}</h1>
-          <h1 className="text-center">{arrowDown}</h1>
+          <div className="arrow-center">
+            <h1
+              className="clickable-arrow"
+              onClick={() => setShowWork(!showWork)}
+            >
+              {arrowDown}
+            </h1>
+          </div>
         </>
       ) : (
         <>
@@ -19,7 +26,14 @@ function Work() {
             titleList={workName}
             detailsList={workDetail}
           ></NestedList>
-          <h1 className="text-center">{arrowUp}</h1>
+          <div className="arrow-center">
+            <h1
+              className="clickable-arrow"
+              onClick={() => setShowWork(!showWork)}
+            >
+              {arrowUp}
+            </h1>
+          </div>
         </>
       )}
     </div>

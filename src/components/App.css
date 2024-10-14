@@ -1,3 +1,14 @@
+.clickable-arrow {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+
+.arrow-center {
+  text-align: center;
+}
+
 .custom-thumbnail {
   background-color: #212529 !important;
   border-color: #212529 !important;
