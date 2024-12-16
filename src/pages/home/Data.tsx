@@ -116,6 +116,6 @@ export const workDetail = [
     "Collaborated with a team of other interns and senior developers both on the frontend and backend of a web application, which utilized C#, ASP.NET Core MVC, Entity Framework Core, and existing company RESTful APIs",
     "Engaged in code reviews with a senior developer to refine coding skills and uphold best practices",
     "Participated in various activities related to each phase of the software development lifecycle",
-    "Contributed to daily sprint meetings which involved discussing individual and team progress, as well as setting future goals",
+    "Contributed to daily standup meetings which involved discussing individual and team progress, as well as setting future goals",
   ],
 ];
