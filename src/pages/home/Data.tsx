@@ -104,7 +104,7 @@ export const workDetail = [
     "Ensure the timely delivery of projects, consistently adhering to established quality standards and best practices",
     "Translate non-technical requirements into technical solutions, ensuring alignment with project goals",
     "Collaborate with project managers to clarify client needs and expectations, optimizing project outcomes",
-    "Participate in daily sprint meetings to discuss team progress and set future goals",
+    "Participate in daily standup meetings to discuss team progress and set future goals",
   ],
   [
     "Educated undergrad students in introductory computer science classes",
