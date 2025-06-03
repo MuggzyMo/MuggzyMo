@@ -37,21 +37,15 @@ export const skillHeader = "Skills";
 
 export const skill: JSX.Element[] = [
   <div key="languages">
-    <strong>Languages:</strong> Java (Advanced), Python (Intermediate), C#
-    (Intermediate), Dart (Intermediate), JavaScript (Beginner), HTML
-    (Intermediate), CSS (Intermediate)
-  </div>,
-  <div key="development-areas">
-    <strong>Development Areas:</strong> Web (Frontend and Backend), Mobile,
-    RESTful API
+    <strong>Languages:</strong> Java, Python, C#, Dart, JavaScript, HTML, CSS
   </div>,
   <div key="frameworks">
-    <strong>Frameworks:</strong> ASP.NET Core MVC, Spring MVC, Bootstrap,
-    Flutter SDK
+    <strong>Frameworks:</strong> ASP.NET Core, Spring MVC, Bootstrap, Flutter
+    SDK
   </div>,
   <div key="tools">
     <strong>Tools:</strong> Android Studio, Visual Studio, Visual Studio Code,
-    Eclipse, IntelliJ, Postman
+    Eclipse, Postman
   </div>,
   <div key="databases">
     <strong>Databases:</strong> PostgreSQL, Microsoft SQL Server
@@ -100,8 +94,8 @@ export const workName = [
 
 export const workDetail = [
   [
-    "Leverage SQL and T-SQL expertise and an in-house ETL tool to clean, process, and manage data for both small- and large-scale projects",
-    "Ensure the timely delivery of projects, consistently adhering to established quality standards and best practices",
+    "Leverage SQL and T-SQL to clean, transform, and stage data in relational databases as part of end-to-end ETL workflows supporting data warehousing initiatives",
+    "Document ETL logic and transformation rules used in preparing data to ensure reproducibility and clarity for future reference",
     "Translate non-technical requirements into technical solutions, ensuring alignment with project goals",
     "Collaborate with project managers to clarify client needs and expectations, optimizing project outcomes",
     "Participate in daily standup meetings to discuss team progress and set future goals",
