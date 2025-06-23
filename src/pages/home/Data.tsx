@@ -44,8 +44,8 @@ export const skill: JSX.Element[] = [
     SDK
   </div>,
   <div key="tools">
-    <strong>Tools:</strong> Android Studio, Visual Studio, Visual Studio Code,
-    Eclipse, Postman
+    <strong>Tools:</strong> Visual Studio Code, Visual Studio, Eclipse, Postman,
+    Excel
   </div>,
   <div key="databases">
     <strong>Databases:</strong> PostgreSQL, Microsoft SQL Server
@@ -95,6 +95,7 @@ export const workName = [
 export const workDetail = [
   [
     "Leverage SQL and T-SQL to clean, transform, and stage data in relational databases as part of end-to-end ETL workflows supporting data warehousing initiatives",
+    "Utilize Excel throughout the data lifecycle, from ingestion and QA within ETL pipelines to the final delivery of cleaned datasets to clients",
     "Document ETL logic and transformation rules used in preparing data to ensure reproducibility and clarity for future reference",
     "Translate non-technical requirements into technical solutions, ensuring alignment with project goals",
     "Collaborate with project managers to clarify client needs and expectations, optimizing project outcomes",
